@@ -19,7 +19,7 @@ z[1] = x[1]*y[1] = 2*5 = 10
 z[2] = x[2]*y[2] = 3*6 = 18
 ````
 
-In mathematics, however, a 1D array of numbers like x or y in the above code is a vector.  Importantly, the product of two vectors is not computed by taking an element-wise product in the manner described above.  In maths if ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}) and ![](https://render.githubusercontent.com/render/math?math=\mathbf{y} are vectors and if we are asked to evaluate ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}\dot\mathbf{y}) we must evaluate the dot product using:
+In mathematics, however, a 1D array of numbers like x or y in the above code is a vector.  Importantly, the product of two vectors is not computed by taking an element-wise product in the manner described above.  In maths if ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}) and ![](https://render.githubusercontent.com/render/math?math=\mathbf{y}) are vectors and if we are asked to evaluate ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}.\mathbf{y}) we must evaluate the dot product using:
 
 ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}.\mathbf{y}=\sum_{i=1}^Nx_iy_i)
 
